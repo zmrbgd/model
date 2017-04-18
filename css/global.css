@@ -19,8 +19,10 @@
   margin-top: -384px;
   margin-left: -512px;
   background-color: #f7f9fc;
-  font-family: Helvetica;
+  
+  font-family: "SFUIText", 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 26;
+  font-size: 13px;
+  color: #202e3b;
 }
 

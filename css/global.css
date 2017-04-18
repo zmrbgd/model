@@ -1,0 +1,25 @@
+
+/* Styles, used globally */
+
+
+
+.page {
+  background-color: #424C56;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.layout {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  top: 50%;
+  left: 50%;
+  margin-top: -384px;
+  margin-left: -512px;
+  background-color: #f7f9fc;
+  font-family: 'NHaasGrotesk';
+  font-weight: normal;
+
+}

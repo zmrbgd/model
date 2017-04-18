@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "NHaasGrotesk";
+  src: url('../fonts/NHaasGrotesk/bold/NHaasGrotesk-Bd.woff') format('woff'),
+       url('../fonts/NHaasGrotesk/bold/NHaasGrotesk-Bd.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "NHaasGrotesk";
+  src: url('../fonts/NHaasGrotesk/light/NHaasGrotesk-Lt.woff') format('woff'),
+       url('../fonts/NHaasGrotesk/light/NHaasGrotesk-Lt.woff2') format('woff2');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "NHaasGrotesk";
+  src: url('../fonts/NHaasGrotesk/mediumbold/NHaasGrotesk-Md.woff') format('woff'),
+       url('../fonts/NHaasGrotesk/mediumbold/NHaasGrotesk-Md.woff2') format('woff2');
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "NHaasGrotesk";
+  src: url('../fonts/NHaasGrotesk/regular/NHaasGrotesk-Rg.woff') format('woff'),
+       url('../fonts/NHaasGrotesk/regular/NHaasGrotesk-Rg.woff2') format('woff2');
+  font-weight: normal;
+}

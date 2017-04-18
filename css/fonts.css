@@ -25,3 +25,33 @@
        url('../fonts/NHaasGrotesk/regular/NHaasGrotesk-Rg.woff2') format('woff2');
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "SFUIText";
+  src: url('../fonts/SFUIText/regular/SFUIText-regular.woff') format('woff'),
+       url('../fonts/SFUIText/regular/SFUIText-regular.woff2') format('woff2'),
+       url('../fonts/SFUIText/regular/SFUIText-regular.ttf') format('truetype'),
+       url('../fonts/SFUIText/regular/SFUIText-regular.svg') format('svg'),
+       url('../fonts/SFUIText/regular/SFUIText-regular.eot') format('eot');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SFUIText";
+  src: url('../fonts/SFUIText/light/SFUIText-light.woff') format('woff'),
+       url('../fonts/SFUIText/light/SFUIText-light.woff2') format('woff2'),
+       url('../fonts/SFUIText/light/SFUIText-light.ttf') format('truetype'),
+       url('../fonts/SFUIText/light/SFUIText-light.svg') format('svg'),
+       url('../fonts/SFUIText/light/SFUIText-light.eot') format('eot');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "SFUIText";
+  src: url('../fonts/SFUIText/semibold/SFUIText-semibold.woff') format('woff'),
+       url('../fonts/SFUIText/semibold/SFUIText-semibold.woff2') format('woff2'),
+       url('../fonts/SFUIText/semibold/SFUIText-semibold.ttf') format('truetype'),
+       url('../fonts/SFUIText/semibold/SFUIText-semibold.svg') format('svg'),
+       url('../fonts/SFUIText/semibold/SFUIText-semibold.eot') format('eot');
+  font-weight: medium;
+}

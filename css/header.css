@@ -10,10 +10,7 @@
     margin-right: 43px;
   }
 
-    .menu__sandwich-bar {
-    }
-
-    .menu__sandwich-line {
+    .menu__line {
       width: 23px;
       height: 1px;
       background-color: #2e5c9e;
@@ -84,8 +81,6 @@
 
   .info {
     float: right;
-    /*position: relative;
-    top: 4px;*/
     box-sizing: border-box;
     padding: 4px 0;
   }

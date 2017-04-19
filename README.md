@@ -9,7 +9,7 @@ page
   |-layout 
         |-header
               |-menu
-                    |-menu__sandwich-bar
+                    |-menu__line
               |-scenario-select
                     |-select
                           |-select__label

@@ -2,7 +2,7 @@
 .header {
   border-bottom: .5px solid #b7babe;
   height: 58px;
-  padding: 19px 20px;
+  padding: 15px 20px;
 }
 
   .menu {
@@ -17,12 +17,14 @@
       width: 23px;
       height: 1px;
       background-color: #2e5c9e;
-      margin-top: 6px;
+      box-sizing: border-box;
+      margin: 6px;
     }
 
   .scenario-select {
     display: inline-block;
     margin-right: 26px;
+    vertical-align: 50%;
   }
 
       .scenario-select__label {
@@ -32,7 +34,7 @@
       .scenario-select__value {
         font-family: 'NHaasGrotesk';
         font-weight: bold;
-        font-size: 12px;
+        font-size: 13px;
       }
 
       .select__drop-icon {
@@ -63,6 +65,7 @@
 
   .users-select {
     display: inline-block;
+    vertical-align: 50%;
   }
 
     .users-select__icon {
@@ -79,12 +82,12 @@
       line-height: 16px;
     }
 
-
-
-
-
   .info {
     float: right;
+    /*position: relative;
+    top: 4px;*/
+    box-sizing: border-box;
+    padding: 4px 0;
   }
 
   .info-icon {

@@ -32,8 +32,8 @@
        url('../fonts/SFUIText/regular/SFUIText-regular.woff2') format('woff2'),
        url('../fonts/SFUIText/regular/SFUIText-regular.ttf') format('truetype'),
        url('../fonts/SFUIText/regular/SFUIText-regular.svg') format('svg'),
-       url('../fonts/SFUIText/regular/SFUIText-regular.eot') format('eot');
-  font-weight: normal;
+       url('../fonts/SFUIText/regular/SFUIText-regular.eot') format('embedded-opentype');
+  font-weight: 400;
 }
 
 @font-face {
@@ -42,8 +42,8 @@
        url('../fonts/SFUIText/light/SFUIText-light.woff2') format('woff2'),
        url('../fonts/SFUIText/light/SFUIText-light.ttf') format('truetype'),
        url('../fonts/SFUIText/light/SFUIText-light.svg') format('svg'),
-       url('../fonts/SFUIText/light/SFUIText-light.eot') format('eot');
-  font-weight: lighter;
+       url('../fonts/SFUIText/light/SFUIText-light.eot') format('embedded-opentype');
+  font-weight: 200;
 }
 
 @font-face {
@@ -52,6 +52,7 @@
        url('../fonts/SFUIText/semibold/SFUIText-semibold.woff2') format('woff2'),
        url('../fonts/SFUIText/semibold/SFUIText-semibold.ttf') format('truetype'),
        url('../fonts/SFUIText/semibold/SFUIText-semibold.svg') format('svg'),
-       url('../fonts/SFUIText/semibold/SFUIText-semibold.eot') format('eot');
-  font-weight: medium;
+       url('../fonts/SFUIText/semibold/SFUIText-semibold.eot') format('embedded-opentype');
+  font-weight: 600;
 }
+

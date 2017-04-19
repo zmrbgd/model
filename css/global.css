@@ -8,6 +8,10 @@
   position: relative;
   width: 100vw;
   height: 100vh;
+  font-family: "SFUIText", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  color: #202e3b;
 }
 
 .layout {
@@ -20,9 +24,6 @@
   margin-left: -512px;
   background-color: #f7f9fc;
   
-  font-family: "SFUIText", 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 13px;
-  color: #202e3b;
+
 }
 

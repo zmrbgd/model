@@ -9,14 +9,13 @@ page
   |-layout 
         |-header
               |-menu
-                    |-menu__line
+                    |-menu__line    
               |-scenario-select
                     |-select
                           |-select__label
                           |-select__value
                           |-select__drop-icon
-                              |-arrow-up
-                              |-arrow-down
+                              |-arrow
               |-users-select
               |-info
         |-body

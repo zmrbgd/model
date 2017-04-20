@@ -2,12 +2,13 @@
 .header {
   border-bottom: .5px solid #b7babe;
   height: 58px;
-  padding: 15px 20px;
+  padding: 19px 20px;
 }
 
   .menu {
     display: inline-block;
     margin-right: 43px;
+    margin-top: 3px;
   }
 
     .menu__line {
@@ -15,13 +16,16 @@
       height: 1px;
       background-color: #2e5c9e;
       box-sizing: border-box;
-      margin: 6px;
+    }
+
+    .menu__line + .menu__line {
+      margin-top: 6px;
     }
 
   .scenario-select {
     display: inline-block;
     margin-right: 26px;
-    vertical-align: 50%;
+    vertical-align: 15%;
   }
 
       .scenario-select__label {
@@ -62,7 +66,7 @@
 
   .users-select {
     display: inline-block;
-    vertical-align: 50%;
+    vertical-align: 10%;
   }
 
     .users-select__icon {
@@ -81,8 +85,6 @@
 
   .info {
     float: right;
-    box-sizing: border-box;
-    padding: 4px 0;
   }
 
   .info-icon {

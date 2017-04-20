@@ -1,0 +1,41 @@
+
+.footer {
+  border-top: 1px solid #b7babe;
+  height: 60px;
+  display: flex;
+  padding-left: 32px; 
+}
+
+.footer__copyright {
+  flex: 1;
+}
+
+.footer__pagination {
+  flex: 0 0 240px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.footer__pages-counter {
+  order: 2;
+}
+
+.footer__page-nav {
+  flex: 0 0 content;
+  display: flex;
+  order: 1;  
+}
+.footer__arrow {
+  flex: 0 0 60px;
+  width: 60px;
+  height: 60px;  
+  background-color: #2e5c9e;
+}
+
+.footer__arrow_right {
+  background-color: blue;
+}
+
+.footer__arrow + .footer__arrow {
+  margin-left: 1px;
+} 

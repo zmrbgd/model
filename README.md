@@ -23,7 +23,13 @@ page
 
               |-info
                   |-info__icon
+
         |-main-section
+            |-main-section
+                  |-main-section__header
+                  |-main-section__body
+                        |-info-card
+            
         |-footer
             |-footer__copyright
                   |-footer__text

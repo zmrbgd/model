@@ -11,3 +11,48 @@
   line-height: 36px;
   margin-bottom: 30px;
 }
+
+.main-section__body {
+  display: flex;
+  }
+
+.info-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-right: 43px;
+  flex: 1;
+  padding: 16px;
+  box-sizing: content-box;
+  box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
+}
+
+.info-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-card__heading {
+  flex: 1;
+  font-family: "NHaasGrotesk", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 600; 
+}
+
+.info-card__icon {
+  flex: 1;
+  max-height: 23px;
+  max-width: fit-content;
+}
+
+.financial-icon {
+  height: 23px;
+}
+
+.clinical-icon {
+  height: 22px;
+}
+
+.quality-of-life-icon {
+  height: 23px;
+}

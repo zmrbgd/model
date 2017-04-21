@@ -1,4 +1,13 @@
 
 .main-section {
   height: calc(100%  - 118px);
+  padding: 35px 55px;
+}
+
+.main-section__heading {
+  font-family: "NHaasGrotesk", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 30px;
 }

@@ -27,11 +27,9 @@ page
         |-footer
             |-footer__copyright
                   |-footer__text
-            |-footer__pagination
+            |-footer__pages-indicator
                   |-footer__pages-icon
-                        |-footer__pages-icon-row
-                              |-footer__pages-icon-square
                   |-footer__pages-counter
                         |-footer__page-num
                         |-footer__of-pages
-            |-footer__page-nav
+                  |-footer__page-nav

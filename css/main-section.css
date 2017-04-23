@@ -26,10 +26,16 @@
   box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
 }
 
+.info-card_wider {
+  width: 300px;
+  flex: 0 0 300px;
+}
+
 .info-card__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .info-card__heading {
@@ -58,7 +64,24 @@
 }
 
 .info-card__section {
-  border-top: 1px solid rgba(32, 56, 49, .3);
+  border-top: 1px solid rgba(32, 46, 59, .3);
   padding-top: 10px;
   box-sizing: border-box;
+  height: 100px;
+  display: flex;
+}
+
+.info-card__paragraph {
+  display: inline-block;
+  color: rgba(32, 46, 59, .8);
+  min-width: 150px;
+  max-width: 190px; 
+}
+
+.info-card__value {
+  font-family: 'NHaasGrotesk', Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  color: #202E3B;
+  flex: 1;
 }

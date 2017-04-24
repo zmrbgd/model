@@ -24,10 +24,10 @@ page
               |-info
                   |-info__icon
 
-        |-main-section
-            |-main-section
-                  |-main-section__header
-                  |-main-section__body
+        |-main-dashboard
+            |-main-dashboard
+                  |-main-dashboard__header
+                  |-main-dashboard__body
                         |-info-card
             
         |-footer

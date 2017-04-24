@@ -1,0 +1,14 @@
+
+.key-assumptions__body {
+}
+
+.key-assumption__column {
+  flex: 0 0 430px;
+  max-width: 430px;
+}
+
+.key-assumption__card_vertical_192 {
+  display: inline-block;
+  width: 192px;
+  margin-right: 13px;
+}

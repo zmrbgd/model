@@ -4,6 +4,11 @@
   padding: 35px 55px;
 }
 
+.main-section__header {
+  margin-top: 17px;
+  margin-bottom: 84px;
+}
+
 .main-section__heading {
   font-family: "NHaasGrotesk", Arial, sans-serif;
   font-size: 30px;
@@ -27,8 +32,8 @@
 }
 
 .info-card_wider {
-  width: 300px;
-  flex: 0 0 300px;
+  width: 296px;
+  flex: 0 0 296px;
 }
 
 .info-card__header {
@@ -80,8 +85,30 @@
 
 .info-card__value {
   font-family: 'NHaasGrotesk', Arial, Helvetica, sans-serif;
-  font-size: 23px;
+  font-size: 28px;
   font-weight: 600;
   color: #202E3B;
   flex: 1;
+  padding-top: 5px;
+}  
+
+.info-card_cost-decrease::before {
+  display: inline-block;
+  content: '';
+  border-top: 8px solid #74cfb2;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-right: 8px;
+  vertical-align: 80%;
+}
+
+.info-card_revenue::before {
+  display: inline-block;
+  content: "";
+  background-image: url("../images/liver-icon.svg");
+  background-size: 20px 16px;
+  height: 16px;
+  width: 20px;
+  margin-right: 8px;
+  vertical-align: 30%;
 }

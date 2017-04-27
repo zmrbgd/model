@@ -12,6 +12,9 @@
   font-size: 13px;
   line-height: 16px;
   color: #202e3b;
+  display: flex;
+  align-items: center;
+  
 }
 
 .general-layout {
@@ -23,6 +26,10 @@
   margin-top: -384px;
   margin-left: -512px;
   background-color: #f7f9fc;
+  margin: 0 auto;
+  flex: 0 0 1024px;
+  position: relative;
+  top: 70px;
 }
 
 .page-body {

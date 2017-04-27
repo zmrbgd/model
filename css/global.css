@@ -23,10 +23,12 @@
   background-color: #f7f9fc;
   position: relative;
   top: 70px;
+  display: flex;
+  flex-direction: column;
 }
 
 .page-body {
-  height: calc(100%  - 118px);
+  flex-grow: 1;
   padding: 35px 55px;
 }
 

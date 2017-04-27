@@ -4,12 +4,14 @@
   height: 60px;
   display: flex;
   justify-content: space-between;
-  padding-left: 32px; 
   align-items: center;
 }
 
-.footer__copyright-container {
-  flex: 1;
+.footer__content-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 32px; 
 }
 
 .footer__copyright {
@@ -22,7 +24,6 @@
   flex: 0 0;
   display: flex;
   align-items: center;
-  margin-right: 32px;
 }
 
 .footer__pages-icon {

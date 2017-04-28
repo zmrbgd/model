@@ -2,14 +2,24 @@
 .footer {
   border-top: 1px solid #b7babe;
   height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   padding: 0 32px; 
 }
@@ -21,9 +31,15 @@
 }
   
 .footer__pages-indicator {
-  flex: 0 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0;
+          flex: 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__pages-icon {
@@ -39,12 +55,18 @@
 }
 
 .footer__page-nav {
-  flex: 0 0 content;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 content;
+          flex: 0 0 content;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .footer__button {
-  flex: 0 0 60px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
   width: 60px;
   height: 60px;  
   background-color: #2e5c9e;
@@ -59,7 +81,8 @@
 }
 
 .footer__button-arrow_left {
-  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .footer__button+.footer__button {

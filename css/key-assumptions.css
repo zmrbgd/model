@@ -1,14 +1,66 @@
 
+.page-body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.key-assumptions {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.key-assumptions__header {
+}
+
 .key-assumptions__body {
+  flex: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid black;
+  height: 100%;
 }
 
-.key-assumption__column {
-  flex: 0 0 430px;
-  max-width: 430px;
+.key-assumptions__column {
+  flex: 1 1 50%;
+  min-height: 100%;
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.key-assumption__card_vertical_192 {
-  display: inline-block;
-  width: 192px;
+.key-assumptions__divider {
+  position: relative;
+}
+
+.key-assumptions__divider-line {
+  width: 1px;
+  height: 100%;
+  background-color: #b7babe;
+}
+
+/*.key-assumptions__divider-title {
+  position: relative;
+}*/
+
+
+.info-card_key-assumptions {
+  height: 308px;
+  background-color: #ffffff;
   margin-right: 13px;
+  -webkit-box-flex: 0 0 192px;
+      -ms-flex: 0 0 192px;
+          flex: 0 0 192px;
+  padding: 16px;
+  box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
 }
+
+.info-card_key-assumptions-horizontal {
+  flex: 0 0 397px;
+  height: 202px;
+}
+
+.info-card_key-assumptions-costs {
+
+}
+

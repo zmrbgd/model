@@ -1,4 +1,6 @@
 
+
+
 .header {
   border-bottom: .5px solid #b7babe;
   height: 58px;
@@ -6,6 +8,7 @@
   display: -ms-flexbox;
   display: flex;
 }
+
 
 .menu {
   display: -webkit-box;
@@ -22,10 +25,6 @@
   height: 58px;
 }
 
-.menu__icon {
-}
-
-
 .menu__line {
   width: 23px;
   height: 1px;
@@ -37,7 +36,8 @@
   margin-top: 6px;
 }
 
-.header__main-block {
+
+.header__central-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,28 +53,43 @@
   padding: 0 22px;
 }
 
-.scenario-select {
+
+.select {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 26px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  margin-right: 22px;
+}
+
+.select--top-2 {
   position: relative;
   top: 2px;
 }
 
-.scenario-select__label {
+.select__label {
   font-size: 11px;
   margin-right: 4px;
 }
 
-.scenario-select__value {
+.select__icon {
+  width: 11px;
+  margin-right: 11px;
+  padding-top: 2px;
+}
+
+.select__value {
   font-family: 'NHaasGrotesk';
-  font-weight: bold;
+  font-weight: 600;
   font-size: 13px;
   margin-right: 2px;
+}
+
+.select__value--larger {
+font-size: 16px;
+line-height: 16px;
 }
 
 .select__drop-icon {
@@ -83,7 +98,7 @@
   top: 1px;
 }
 
-.arrow {
+.select__arrow {
   border-bottom: 4px solid #3a3d54;
   border-right: 2.5px solid transparent;
   border-left: 2.5px solid transparent;
@@ -92,38 +107,15 @@
   box-sizing: border-box;
 }
 
-.arrow_larger {
+.select__arrow--larger {
   border-bottom-width: 5px;
   border-right-width: 3px;
   border-left-width: 3px;
 }
 
-.arrow_down {
+.select__arrow--down {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
-}
-
-
-.users-select {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: baseline;
-    -ms-flex-align: baseline;
-        align-items: baseline;
-}
-
-.users-select__icon {
-  width: 11px;
-  margin-right: 11px;
-  padding-top: 2px;
-}
-
-.users-select__value {
-font-family: 'NHaasGrotesk';
-font-weight: bold;
-font-size: 16px;
-line-height: 16px;
 }
 
 .info {

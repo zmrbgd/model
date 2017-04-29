@@ -4,16 +4,16 @@
   <head>
     <meta charset="utf-8">
     <title>Model</title>
-    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/main-dashboard.css">
   </head>
   
   <body class="page"> 
-    <div class="general-layout">
+    <div class="page__content">
       
       <div class="header">
         <div class="menu">
@@ -24,26 +24,26 @@
           </div>
         </div>  
         
-        <div class="header__main-block">
-          <div class="scenario-select">
-            <span class="scenario-select__label">Current scenario:</span>
-            <span class="scenario-select__value">Base case</span>
+        <div class="header__central-block">
+          <div class="select select--top-2">
+            <span class="select__label">Current scenario:</span>
+            <span class="select__value">Base case</span>
             <div class="select__drop-icon">
-              <div class="arrow"></div>
-              <div class="arrow arrow_down"></div>
+              <div class="select__arrow"></div>
+              <div class="select__arrow select__arrow--down"></div>
             </div>
           </div>
           
-          <div class="users-select">
-            <div class="users-select__icon">
+          <div class="select">
+            <div class="select__icon">
               <img src="images/user.svg" alt="user icon">
             </div>
               
-            <span class="users-select__value">200</span>
+            <span class="select__value select__value--larger">200</span>
             
             <div class="select__drop-icon">
-              <div class="arrow arrow_larger"></div>
-              <div class="arrow arrow_larger arrow_down"></div>
+              <div class="select__arrow select__arrow--larger"></div>
+              <div class="select__arrow select__arrow--larger select__arrow--down"></div>
             </div>
           </div>
         </div>
@@ -53,10 +53,10 @@
         </div>
       </div>
 
-      <div class="page-body">
+      <div class="main-section">
         
-        <div class="main-dashboard__header">
-          <h1 class="page__heading">General message<br>
+        <div class="main-section__header">
+          <h1 class="main-section__heading">General message<br>
             for the main screen</h1>
         </div>
 

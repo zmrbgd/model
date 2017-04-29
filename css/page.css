@@ -1,5 +1,5 @@
 
-/* Styles, used globally */
+/* Basic styles */
 
 
 .page {
@@ -23,7 +23,7 @@
           justify-content: center;
 }
 
-.general-layout {
+.page__content {
   width: 1024px;
   height: 768px;
   background-color: #f7f9fc;
@@ -38,7 +38,7 @@
           flex-direction: column;
 }
 
-.page-body {
+.main-section {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -63,6 +63,4 @@
   padding: 16px;
   box-sizing: content-box;
   box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
-
-
 }

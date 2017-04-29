@@ -6,25 +6,24 @@ BEM TREE
 ----------------------
 
 page
-  |-layout 
+  |-page__content 
         |-header
               |-menu
-                  |-menu__line    
-              |-scenario-select
+                  |-menu__icon    
+                        |-menu__line    
+              
+              |-header__sentral-block
                   |-select
                         |-select__label
                         |-select__value
                         |-select__drop-icon
-                              |-arrow
-              |-users-select
-                  |-users-select
-                        |-users-select__icon
-                        |-users-select__value
+                        |-select__icon
+                              |-select__arrow
 
               |-info
                   |-info__icon
 
-        |-main-dashboard
+        |-main-section
             |-main-dashboard
                   |-main-dashboard__header
                   |-main-dashboard__body

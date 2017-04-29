@@ -4,10 +4,12 @@
   <head>
     <meta charset="utf-8">
     <title>Model</title>
-    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main-section.css">
+    <link rel="stylesheet" href="css/info-card.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/key-assumptions.css">
   </head>
@@ -24,7 +26,7 @@
           </div>
         </div>  
         
-        <div class="header__main-block">
+        <div class="header__central-block">
           <div class="select select--top-2">
             <span class="select__label">Current scenario:</span>
             <span class="select__value">Base case</span>
@@ -54,27 +56,22 @@
       </div>
     
       <div class="main-section">
-        <div class="key-assumptions">
-          <div class="key-assumptions__header">
-            <h1 class="main-section__heading">Key assumptions</h1>
+        <div class="main-section__header">
+          <h1 class="main-section__heading">Key assumptions</h1>
+        </div>
+        
+        <div class="main-section__body">
+          <div class="main-section__column">
+            <div class="info-card_key-assumptions"></div>
+            <div class="info-card_key-assumptions"></div>
+            <div class="info-card_key-assumptions info-card_key-assumptions-horizontal"></div>
           </div>
-          
-          <div class="key-assumptions__body">
-            
-            <div class="key-assumptions__column">
-              <div class="info-card_key-assumptions"></div>
-              <div class="info-card_key-assumptions"></div>
-              <div class="info-card_key-assumptions info-card_key-assumptions-horizontal"></div>
-            </div>
-            <div class="key-assumptions__divider">
-              <div class="key-assumptions__divider-line"></div>
-              <!--<div class="key-assumptions__divider-title">Costs of HCC treatment</div>-->
-            </div>
-            <div class="key-assumptions__column">
-              column 2
-            </div>
+          <div class="main-section__divider">
+            <div class="main-section__divider-line"></div>
           </div>
-
+          <div class="main-section__column">
+            column 2
+          </div>
         </div>
       </div>
 

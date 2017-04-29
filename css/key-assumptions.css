@@ -1,49 +1,4 @@
 
-.page-body {
-  display: flex;
-  flex-direction: column;
-}
-
-
-.key-assumptions {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.key-assumptions__header {
-}
-
-.key-assumptions__body {
-  flex: 1;
-  display: flex;
-  flex-flow: row nowrap;
-  border: 1px solid black;
-  height: 100%;
-}
-
-.key-assumptions__column {
-  flex: 1 1 50%;
-  min-height: 100%;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.key-assumptions__divider {
-  position: relative;
-}
-
-.key-assumptions__divider-line {
-  width: 1px;
-  height: 100%;
-  background-color: #b7babe;
-}
-
-/*.key-assumptions__divider-title {
-  position: relative;
-}*/
-
-
 .info-card_key-assumptions {
   height: 308px;
   background-color: #ffffff;

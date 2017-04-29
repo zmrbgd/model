@@ -1,26 +1,4 @@
 
-.main-dashboard {
-  padding: 35px 55px;
-}
-
-.main-dashboard__header {
-  margin-top: 17px;
-  margin-bottom: 84px;
-}
-
-.main-section__heading {
-  font-family: "NHaasGrotesk", Arial, sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 36px;
-  margin-bottom: 30px;
-}
-
-.main-dashboard__body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  }
 
 .info-card {
   background-color: #ffffff;
@@ -131,4 +109,25 @@
   width: 20px;
   margin-right: 8px;
   vertical-align: 30%;
+}
+
+
+.info-card_key-assumptions {
+  height: 308px;
+  background-color: #ffffff;
+  margin-right: 13px;
+  -webkit-box-flex: 0 0 192px;
+      -ms-flex: 0 0 192px;
+          flex: 0 0 192px;
+  padding: 16px;
+  box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
+}
+
+.info-card_key-assumptions-horizontal {
+  flex: 0 0 397px;
+  height: 202px;
+}
+
+.info-card_key-assumptions-costs {
+
 }

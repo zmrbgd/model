@@ -1,0 +1,40 @@
+.main-section {
+  padding: 35px 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section__header {
+  margin-bottom: 30px;
+}
+
+.main-section__header--padded {
+  margin-top: 17px;
+  margin-bottom: 84px;
+}
+
+.main-section__heading {
+  font-family: "NHaasGrotesk", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.main-section__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  }
+
+.main-section__column {
+  flex: 1 0 50%;
+  min-height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.main-section__divider-line {
+  width: 1px;
+  height: 100%;
+  background-color: #b7babe;
+}

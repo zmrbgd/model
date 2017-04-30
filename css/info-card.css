@@ -2,21 +2,43 @@
 
 .info-card {
   background-color: #ffffff;
-  border-radius: 5px;
-  margin-right: 43px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   padding: 16px;
-  box-sizing: content-box;
   box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
 }
 
-.info-card_wider {
+.info-card--mainpage {
+  border-radius: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 43px;
+
+}
+
+.info-card--wider {
   width: 296px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 296px;
           flex: 0 0 296px;
+}
+
+.info-card--key-assumptions {
+  height: 308px;
+  margin-right: 13px;
+  -webkit-box-flex: 0 0 192px;
+      -ms-flex: 0 0 192px;
+          flex: 0 0 192px;
+  padding: 16px;
+  box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
+}
+
+.info-card--key-assumptions-horizontal {
+  flex: 0 0 397px;
+  height: 202px;
+}
+
+.info-card--key-assumptions-costs {
+
 }
 
 .info-card__header {
@@ -90,7 +112,7 @@
           flex: 1;
 }  
 
-.info-card_cost-decrease::before {
+.info-card--cost-decrease::before {
   display: inline-block;
   content: '';
   border-top: 8px solid #74cfb2;
@@ -100,7 +122,7 @@
   vertical-align: 70%;
 }
 
-.info-card_revenue::before {
+.info-card--revenue::before {
   display: inline-block;
   content: "";
   background-image: url("../images/liver-icon.svg");
@@ -111,23 +133,3 @@
   vertical-align: 30%;
 }
 
-
-.info-card_key-assumptions {
-  height: 308px;
-  background-color: #ffffff;
-  margin-right: 13px;
-  -webkit-box-flex: 0 0 192px;
-      -ms-flex: 0 0 192px;
-          flex: 0 0 192px;
-  padding: 16px;
-  box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
-}
-
-.info-card_key-assumptions-horizontal {
-  flex: 0 0 397px;
-  height: 202px;
-}
-
-.info-card_key-assumptions-costs {
-
-}

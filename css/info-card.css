@@ -12,7 +12,6 @@
       -ms-flex: 1;
           flex: 1;
   margin-right: 43px;
-
 }
 
 .info-card--wider {
@@ -37,10 +36,6 @@
   height: 202px;
 }
 
-.info-card--key-assumptions-costs {
-
-}
-
 .info-card__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,33 +50,16 @@
 }
 
 .info-card__heading {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   font-family: "NHaasGrotesk", Arial, sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 600; 
 }
 
+.info-card__heading--larger {
+  font-size: 17px;
+}
+
 .info-card__icon {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  max-height: 23px;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-.financial-icon {
-  height: 23px;
-}
-
-.clinical-icon {
-  height: 22px;
-}
-
-.quality-of-life-icon {
   height: 23px;
 }
 
@@ -96,7 +74,6 @@
 }
 
 .info-card__paragraph {
-  display: inline-block;
   color: rgba(32, 46, 59, .8);
   min-width: 150px;
   max-width: 190px; 
@@ -106,10 +83,11 @@
   font-family: 'NHaasGrotesk', Arial, Helvetica, sans-serif;
   font-size: 28px;
   font-weight: 600;
+  line-height: 28px;
   color: #202E3B;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -webkit-box-flex: 1 0 95px;
+      -ms-flex: 1 0 95px;
+          flex: 1 0 95px;
 }  
 
 .info-card--cost-decrease::before {
@@ -119,7 +97,7 @@
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   margin: 2px 8px 0 0;
-  vertical-align: 70%;
+  vertical-align: 40%;
 }
 
 .info-card--revenue::before {
@@ -130,6 +108,6 @@
   height: 16px;
   width: 20px;
   margin-right: 8px;
-  vertical-align: 30%;
+  vertical-align: 15%;
 }
 

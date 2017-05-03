@@ -2,7 +2,7 @@
 
 .info-card {
   background-color: #ffffff;
-  padding: 16px;
+  padding: 15px;
   box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
 }
 
@@ -10,6 +10,8 @@
   margin-bottom: 10px;
   margin-right: 10px;
   flex-basis: 204px; 
+  display: flex;
+  flex-direction: column;
 } 
 
 .info-card--mainpage {
@@ -43,7 +45,7 @@
 }
 
 .info-card--key-assumption-costs {
-
+  display: flex;
 }
 
 .info-card__header {
@@ -69,6 +71,7 @@
   font-family: "NHaasGrotesk", Arial, sans-serif;
   font-size: 14px;
   font-weight: 600; 
+  line-height: 15px;
 }
 
 .info-card__heading--larger {
@@ -79,6 +82,10 @@
   display: block;
   max-height: 23px;
   max-width: 35px;
+}
+
+.info-card__body {
+  flex-grow: 1;
 }
 
 .info-card__section {
@@ -99,7 +106,7 @@
 
 .info-card__paragraph--fs-small {
   font-size: 11px;
-  font-weight: 15px;
+  line-height: 15px;
 }
 
 .info-card__value {
@@ -154,6 +161,7 @@
 .info-card__costs-line {
   display: flex;
   justify-content: space-between;
+  line-height: 16px;
 }
 
 .info-card__costs-value--reimbursed {
@@ -164,4 +172,31 @@
   border-top: 1px solid rgba(32, 46, 59, .3);
   border-bottom: 1px solid rgba(32, 46, 59, .3);
   padding: 5px 0;
+  margin-top: 8px;
+}
+
+.info-card__circle-chart {
+  display: flex;
+  align-items: center;
+  padding: 0 5px 15px 5px;
+}
+
+.info-card__circle-icon {
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 5px;
+}
+
+.info-card__circle-value {
+  font-size: 19px;
+  font-family: "NHaasGrotesk", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.info-card__lead {
+  font-size: 12px;  
+  line-height: 14px;
+  height: 45px;
+  letter-spacing: -0.1px;
+  width: 105%;
 }

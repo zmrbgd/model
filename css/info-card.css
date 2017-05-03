@@ -6,6 +6,12 @@
   box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
 }
 
+.info-card--key-assumptions-costs {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  flex-basis: 204px; 
+} 
+
 .info-card--mainpage {
   border-radius: 5px;
   -webkit-box-flex: 1;
@@ -36,6 +42,10 @@
   height: 202px;
 }
 
+.info-card--key-assumption-costs {
+
+}
+
 .info-card__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,6 +57,11 @@
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 30px;
+}
+
+.info-card__header--flex-column {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .info-card__heading {
@@ -81,6 +96,11 @@
   max-width: 190px; 
 }
 
+.info-card__paragraph--fs-small {
+  font-size: 11px;
+  font-weight: 15px;
+}
+
 .info-card__value {
   font-family: 'NHaasGrotesk', Arial, Helvetica, sans-serif;
   font-size: 28px;
@@ -113,3 +133,34 @@
   vertical-align: 15%;
 }
 
+.info-card__subheading {
+  font-family: 'NHaasGrotesk', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #b263a0;
+  font-size: 12px;
+}
+
+.info-card__costs-label {
+  font-size: 12px;
+}
+
+.info-card__costs-value {
+  font-family: "NHaasGrotesk", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.info-card__costs-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-card__costs-value--reimbursed {
+  font-size: 11px;
+}
+
+.info-card__costs {
+  border-top: 1px solid rgba(32, 46, 59, .3);
+  border-bottom: 1px solid rgba(32, 46, 59, .3);
+  padding: 5px 0;
+}

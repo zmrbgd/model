@@ -60,7 +60,9 @@
 }
 
 .info-card__icon {
-  height: 23px;
+  display: block;
+  max-height: 23px;
+  max-width: 35px;
 }
 
 .info-card__section {

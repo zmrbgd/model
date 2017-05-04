@@ -14,8 +14,7 @@
 
 @font-face {
   font-family: "NHaasGrotesk";
-  src: url('../fonts/NHaasGrotesk/mediumbold/NHaasGroteskDSStd-65Md.otf') format('opentype')
-      url('../fonts/NHaasGrotesk/mediumbold/NHaasGrotesk-Md.woff') format('woff'),
+  src: url('../fonts/NHaasGrotesk/mediumbold/NHaasGrotesk-Md.woff') format('woff'),
        url('../fonts/NHaasGrotesk/mediumbold/NHaasGrotesk-Md.woff2') format('woff2');
   font-weight: 600;
 }

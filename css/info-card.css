@@ -10,6 +10,7 @@
   margin-bottom: 10px;
   margin-right: 10px;
   flex-basis: 204px; 
+  max-width: 204px;
   display: flex;
   flex-direction: column;
 } 
@@ -23,10 +24,11 @@
 }
 
 .info-card--wider {
-  width: 296px;
+  max-width: 296px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 296px;
           flex: 0 0 296px;
+  
 }
 
 .info-card--key-assumptions {
@@ -35,14 +37,16 @@
   -webkit-box-flex: 0 0 192px;
       -ms-flex: 0 0 192px;
           flex: 0 0 192px;
+  max-width: 192px;
   padding: 16px;
   box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
 }
 
 .info-card--key-assumptions-horizontal {
   flex: 0 0 397px;
+  max-width: 397px;
   height: 202px;
-  margin-top: 11px;
+  margin-top: 11px; 
 }
 
 .info-card--key-assumption-costs {

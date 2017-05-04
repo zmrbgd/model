@@ -40,4 +40,16 @@
   width: 1px;
   height: 100%;
   background-color: #b7babe;
+  margin-right: 30px;
+}
+
+.main-section__divider-line::before {
+  content: "Costs of HCC treatment";
+  transform: rotate(270deg);
+  z-index: 2;
+  font-size: 12px; 
+  background-color: #F7F9FC;
+  position: absolute;
+  top: 50%;
+  left: 43.5%;
 }

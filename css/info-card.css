@@ -42,6 +42,7 @@
 .info-card--key-assumptions-horizontal {
   flex: 0 0 397px;
   height: 202px;
+  margin-top: 11px;
 }
 
 .info-card--key-assumption-costs {
@@ -206,7 +207,7 @@
 .hrz-graph {
   display: flex;
   flex-direction: column;
-  margin-bottom: 22px;
+  margin-bottom: 22px;  
 }
 
 .hrz-graph__row {

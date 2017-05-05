@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main-section.css">
-    <link rel="stylesheet" href="css/info-card.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/mainpage.css">
     <link rel="stylesheet" href="css/footer.css">
   </head>
   
@@ -26,7 +27,7 @@
         </div>  
         
         <div class="header__central-block">
-          <div class="select select--top-2">
+          <div class="select header__select">
             <span class="select__label">Current scenario:</span>
             <span class="select__value">Base case</span>
             <div class="select__drop-icon">
@@ -54,55 +55,55 @@
 
       <main class="main-section">
         
-        <div class="main-section__header main-section__header--padded">
+        <div class="main-section__header mainpage__header">
           <h1 class="main-section__heading">General message<br>
             for the main screen</h1>
         </div>
 
         <div class="main-section__body">
           
-          <div class="info-card info-card--mainpage info-card--wider">
-            <div class="info-card__header">
-              <h2 class="info-card__heading info-card__heading--larger">Financial</h2>
-              <img class="info-card__icon" src="images/financial-icon.svg" alt="financial icon">
+          <div class="card mainpage__card">
+            <div class="card__header">
+              <h2 class="card__heading card__heading--larger">Financial</h2>
+              <img class="card__icon" src="images/financial-icon.svg" alt="financial icon">
             </div>
             
-            <div class="info-card__section">
-              <span class="info-card__value info-card--cost-decrease">25%</span>
-              <p class="info-card__paragraph">In HCC, utilization Y90 represents a cost decrease of 
+            <div class="card__section">
+              <span class="card__value card--cost-decrease">25%</span>
+              <p class="card__paragraph">In HCC, utilization Y90 represents a cost decrease of 
                 25% over 5 years.</p>
             </div>
             
-            <div class="info-card__section">
-              <span class="info-card__value info-card--revenue">10</span>
-              <p class="info-card__paragraph">The additional 10 liver transplants due to Y90 represent downstream revenue for the hospital</p>
+            <div class="card__section">
+              <span class="card__value card--revenue">10</span>
+              <p class="card__paragraph">The additional 10 liver transplants due to Y90 represent downstream revenue for the hospital</p>
             </div>
           </div>
 
-          <div class="info-card info-card--mainpage">
-            <div class="info-card__header">
-              <h2 class="info-card__heading info-card__heading--larger">Clinical</h2>
-              <img class="info-card__icon"src="images/clinical-icon.svg" alt="clinical-icon">
+          <div class="card mainpage__card">
+            <div class="card__header">
+              <h2 class="card__heading card__heading--larger">Clinical</h2>
+              <img class="card__icon"src="images/clinical-icon.svg" alt="clinical-icon">
             </div>
 
-            <div class="info-card__section">
-              <p class="info-card__paragraph">Y90 is associated with higher frequencies of downstaging and 
+            <div class="card__section">
+              <p class="card__paragraph">Y90 is associated with higher frequencies of downstaging and 
                 bridging to liver resection or transplantation compared to TACE</p>
             </div>
-            <div class="info-card__section">
-              <p class="info-card__paragraph">Compared to TACE, a greater survival benefit 
+            <div class="card__section">
+              <p class="card__paragraph">Compared to TACE, a greater survival benefit 
                 was demonstrated with Y90.</p>
             </div>
           </div>
 
-          <div class="info-card info-card--mainpage">
-            <div class="info-card__header">
-              <h2 class="info-card__heading info-card__heading--larger">Quality of life</h2>
-              <img class="info-card__icon" src="images/quality-of-life-icon.svg" alt="quality of life icon">
+          <div class="card mainpage__card">
+            <div class="card__header">
+              <h2 class="card__heading card__heading--larger">Quality of life</h2>
+              <img class="card__icon" src="images/quality-of-life-icon.svg" alt="quality of life icon">
             </div>
 
-            <div class="info-card__section">
-              <p class="info-card__paragraph">Patients treated with Y90 demonstrated significantly improved well-being compared 
+            <div class="card__section">
+              <p class="card__paragraph">Patients treated with Y90 demonstrated significantly improved well-being compared 
                 with TACE-treated patients.</p>
             </div>
           </div>
@@ -131,6 +132,6 @@
           </button></a>
         </div>
       </footer> 
-    </div>
+    </div>  
   </body>
 </html>

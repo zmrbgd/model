@@ -3,7 +3,7 @@
 
 .header {
   border-bottom: .5px solid #b7babe;
-  height: 58px;
+  min-height: 58px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,12 +61,12 @@
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  margin-right: 22px;
 }
 
-.select--top-2 {
+.header__select {
   position: relative;
   top: 2px;
+  margin-right: 22px;
 }
 
 .select__label {

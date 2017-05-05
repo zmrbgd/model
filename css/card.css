@@ -1,59 +1,19 @@
 
 
-.info-card {
+.card {
   background-color: #ffffff;
   padding: 15px;
   box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
-}
-
-.info-card--key-assumptions-costs {
-  margin-bottom: 10px;
-  margin-right: 10px;
-  flex-basis: 204px; 
-  max-width: 204px;
   display: flex;
   flex-direction: column;
-} 
-
-.info-card--mainpage {
-  border-radius: 5px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  margin-right: 43px;
+  flex: 1 1 0px;
 }
 
-.info-card--wider {
-  max-width: 296px;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 296px;
-          flex: 0 0 296px;
-  
+.card+.card {
+  margin-left: 14px;
 }
 
-.info-card--key-assumptions {
-  height: 308px;
-  margin-right: 13px;
-  -webkit-box-flex: 0 0 192px;
-      -ms-flex: 0 0 192px;
-          flex: 0 0 192px;
-  max-width: 192px;
-  padding: 16px;
-  box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
-}
-
-.info-card--key-assumptions-horizontal {
-  flex: 0 0 397px;
-  max-width: 397px;
-  height: 202px;
-  margin-top: 11px; 
-}
-
-.info-card--key-assumption-costs {
-  display: flex;
-}
-
-.info-card__header {
+.card__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,34 +26,34 @@
   margin-bottom: 30px;
 }
 
-.info-card__header--costs-category {
+.card__header--costs-category {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 15px;
 }
 
-.info-card__heading {
+.card__heading {
   font-family: "NHaasGrotesk", Arial, sans-serif;
   font-size: 14px;
   font-weight: 600; 
   line-height: 15px;
 }
 
-.info-card__heading--larger {
+.card__heading--larger {
   font-size: 17px;
 }
 
-.info-card__icon {
+.card__icon {
   display: block;
   max-height: 23px;
   max-width: 35px;
 }
 
-.info-card__body {
+.card__body {
   flex-grow: 1;
 }
 
-.info-card__section {
+.card__section {
   border-top: 1px solid rgba(32, 46, 59, .3);
   padding-top: 10px;
   box-sizing: border-box;
@@ -103,18 +63,17 @@
   display: flex;
 }
 
-.info-card__paragraph {
+.card__paragraph {
   color: rgba(32, 46, 59, .8);
-  min-width: 150px;
-  max-width: 365px; 
 }
 
-.info-card__paragraph--fs-small {
+.card__paragraph--fs-small {
   font-size: 11px;
   line-height: 15px;
+  letter-spacing: -0.1px;
 }
 
-.info-card__value {
+.card__value {
   font-family: 'NHaasGrotesk', Arial, Helvetica, sans-serif;
   font-size: 28px;
   font-weight: 600;
@@ -125,7 +84,7 @@
           flex: 1 0 95px;
 }  
 
-.info-card--cost-decrease::before {
+.card--cost-decrease::before {
   display: inline-block;
   content: '';
   border-top: 8px solid #74cfb2;
@@ -135,7 +94,7 @@
   vertical-align: 40%;
 }
 
-.info-card--revenue::before {
+.card--revenue::before {
   display: inline-block;
   content: "";
   background-image: url("../images/liver-icon.svg");
@@ -146,67 +105,65 @@
   vertical-align: 15%;
 }
 
-.info-card__subheading {
+.card__subheading {
   font-family: 'NHaasGrotesk', Arial, Helvetica, sans-serif;
   font-weight: 600;
   color: #b263a0;
   font-size: 12px;
 }
 
-.info-card__costs-label {
+.card__costs-label {
   font-size: 12px;
 }
 
-.info-card__costs-value {
+.card__costs-value {
   font-family: "NHaasGrotesk", Arial, sans-serif;
   font-size: 13px;
   font-weight: 600;
 }
 
-.info-card__costs-line {
+.card__costs-line {
   display: flex;
   justify-content: space-between;
   line-height: 16px;
 }
 
-.info-card__costs-value--reimbursed {
+.card__costs-value--reimbursed {
   font-size: 11px;
 }
 
-.info-card__costs {
+.card__costs {
   border-top: 1px solid rgba(32, 46, 59, .3);
   border-bottom: 1px solid rgba(32, 46, 59, .3);
   padding: 5px 0;
   margin-top: 8px;
 }
 
-.info-card__circle-chart {
+.card__circle-chart {
   display: flex;
   align-items: center;
   padding: 0 5px 15px 5px;
 }
 
-.info-card__circle-icon {
+.card__circle-icon {
   max-width: 30px;
   max-height: 30px;
   margin-right: 5px;
 }
 
-.info-card__circle-value {
+.card__circle-value {
   font-size: 19px;
   font-family: "NHaasGrotesk", Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
 
-.info-card__lead {
+.card__lead {
   font-size: 12px;
   font-weight: 600;
   line-height: 14px;
   height: 45px;
   letter-spacing: -0.1px;
-  width: 105%;
 }
-
 
 .hrz-graph {
   display: flex;
@@ -236,3 +193,4 @@
   font-family: "NHaasGrotesk", Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
+

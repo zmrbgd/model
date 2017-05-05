@@ -1,0 +1,38 @@
+.key-assumptions {
+
+}
+
+.key-assumptions__stats {
+  padding-right: 60px;
+}
+
+.key-assumptions__stats-card {
+  height: 308px;
+}
+
+.key-assumptions__stats-card--horizontal {
+  height: 202px;
+}
+
+.key-assumptions__costs {
+  padding-left: 32px;
+  border-left: 1px solid #b7babe;
+  position: relative;
+}
+
+.key-assumptions__costs-title {
+  font-size: 12px; 
+  line-height: 14px;
+  position: absolute;
+  z-index: 2;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  background-color: #F7F9FC;
+  padding: 0 5px;
+  top: 47%;
+  left: -73px;
+}
+
+.key-assumptions__costs-card {
+  min-height: 248px;
+} 

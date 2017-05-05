@@ -1,5 +1,5 @@
 .main-section {
-  padding: 32px 55px;
+  padding: 35px 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,12 +13,7 @@
 }
 
 .main-section__header {
-  margin-bottom: 30px;
-}
-
-.main-section__header--padded {
-  margin-top: 17px;
-  margin-bottom: 84px;
+  margin-bottom: 26px;
 }
 
 .main-section__heading {
@@ -32,35 +27,25 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  }
+}
 
 .main-section__column {
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 50%;
-          flex: 1 0 50%;
-  min-height: 100%;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.main-section__divider-line {
-  width: 1px;
-  height: 100%;
-  background-color: #b7babe;
-  margin-right: 30px;
+.main-section__row {
+  display: flex;
+  flex-direction: row;  
 }
 
-.main-section__divider-line::before {
-  content: "Costs of HCC treatment";
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
-  z-index: 2;
-  font-size: 12px; 
-  background-color: #F7F9FC;
-  position: absolute;
-  top: 50%;
-  left: 43.5%;
+.main-section__row+.main-section__row {
+  margin-top: 14px;
 }
+

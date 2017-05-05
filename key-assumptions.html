@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main-section.css">
-    <link rel="stylesheet" href="css/info-card.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/key-assumptions.css">
     <link rel="stylesheet" href="css/footer.css">
   </head>
 
@@ -25,7 +26,7 @@
         </div>  
         
         <div class="header__central-block">
-          <div class="select select--top-2">
+          <div class="select header__select">
             <span class="select__label">Current scenario:</span>
             <span class="select__value">Base case</span>
             <div class="select__drop-icon">
@@ -57,153 +58,161 @@
         </div>
         
         <div class="main-section__body">
-          <div class="main-section__column">
-            <div class="info-card info-card--key-assumptions">
-              <div class="info-card__header">
-                <div class="info-card__heading">Epidemology</div>
-              </div>
-              <div class="info-card__body">
-                <div class="info-card__circle-chart">
-                  <img class="info-card__circle-icon" src="images/circle-chart.svg" alt="circle-chart"></img>
-                  <div class="info-card__circle-value">72%</div>
+          <div class="main-section__column key-assumptions__stats">
+            <div class="main-section__row">
+              <div class="card key-assumptions__stats-card">
+                <div class="card__header">
+                  <div class="card__heading">Epidemology</div>
                 </div>
-                <div class="info-card__lead">72% of all HCC cases are eligible for treatment with Y90. </div>
-                <div class="info-card__paragraph info-card__paragraph--fs-small"> Eligibility is based on the BCLC staging system and includes patients in early stage bridging to transplant, intermediate stage, 
-                  and advanced stages with and without portal vein thrombosis</div>
+                <div class="card__body">
+                  <div class="card__circle-chart">
+                    <img class="card__circle-icon" src="images/circle-chart.svg" alt="circle-chart"></img>
+                    <div class="card__circle-value">72%</div>
+                  </div>
+                  <div class="card__lead">72% of all HCC cases are eligible for treatment with Y90. </div>
+                  <div class="card__paragraph card__paragraph--fs-small"> Eligibility is based on the BCLC staging system and includes patients in early stage bridging to transplant, intermediate stage, 
+                    and advanced stages with and without portal vein thrombosis</div>
+                </div>
+              </div>
+              <div class="card key-assumptions__stats-card">
+                <div class="card__header">
+                  <div class="card__heading">Y90 uptake</div>
+                </div>
+                <div class="card__body">
+                  <div class="card__circle-chart">
+                    <img class="card__circle-icon" src="images/circle-chart.svg" alt="circle-chart"></img>
+                    <div class="card__circle-value">34%</div>
+                  </div>
+                  <div class="card__lead">34% of eligible patients would be treated with TheraSphere</div>
+                  <div class="card__paragraph card__paragraph--fs-small"> The uptake of Y90 treatment in eligible patients is assumed to be progressive and specific to each HCC stage. On average, 
+                    34% of eligible patients would be treated with TheraSphere instead of the current standard of care per year</div>
+                </div>
               </div>
             </div>
-            <div class="info-card info-card--key-assumptions">
-              <div class="info-card__header">
-                <div class="info-card__heading">Y90 uptake</div>
-              </div>
-              <div class="info-card__body">
-                <div class="info-card__circle-chart">
-                  <img class="info-card__circle-icon" src="images/circle-chart.svg" alt="circle-chart"></img>
-                  <div class="info-card__circle-value">34%</div>
+            <div class="main-section__row">
+              <div class="card key-assumptions__stats-card key-assumptions__stats-card--horizontal">
+                <div class="card__header card__header--costs-category">
+                  <div class="card__heading">Desease management</div>
                 </div>
-                <div class="info-card__lead">34% of eligible patients would be treated with TheraSphere</div>
-                <div class="info-card__paragraph info-card__paragraph--fs-small"> The uptake of Y90 treatment in eligible patients is assumed to be progressive and specific to each HCC stage. On average, 
-                  34% of eligible patients would be treated with TheraSphere instead of the current standard of care per year</div>
-              </div>
-            </div>
-            <div class="info-card info-card--key-assumptions info-card--key-assumptions-horizontal">
-              <div class="info-card__header info-card__header--costs-category">
-                <div class="info-card__heading">Desease management</div>
-              </div>
-              <div class="info-card__body">
-                <div class="info-card__lead">Average number of treatments <br>per patient:</div>
-              </div>
-              <div class="hrz-graph">
-                <div class="hrz-graph__row">
-                  <div class="hrz-graph__label">Y90</div>
-                  <div class="hrz-graph__line"></div>
-                  <div class="hrz-graph__value">1.4</div>
+                <div class="card__body">
+                  <div class="card__lead">Average number of treatments <br>per patient:</div>
                 </div>
-                <div class="hrz-graph__row">
-                  <div class="hrz-graph__label">TACE</div>
-                  <div class="hrz-graph__line"></div>
-                  <div class="hrz-graph__value">2.8</div>
+                <div class="hrz-graph">
+                  <div class="hrz-graph__row">
+                    <div class="hrz-graph__label">Y90</div>
+                    <div class="hrz-graph__line"></div>
+                    <div class="hrz-graph__value">1.4</div>
+                  </div>
+                  <div class="hrz-graph__row">
+                    <div class="hrz-graph__label">TACE</div>
+                    <div class="hrz-graph__line"></div>
+                    <div class="hrz-graph__value">2.8</div>
+                  </div>
                 </div>
+                <p class="card__paragraph card__paragraph--fs-small">TACE is composed of 69% cTACE and 31% DEB-TACE4, and performed on
+                  average 2.9 times per patient6,7, as opposed to 1.4 treatments for Y90</p>
               </div>
-              <p class="info-card__paragraph info-card__paragraph--fs-small">TACE is composed of 69% cTACE and 31% DEB-TACE4, and performed on
- average 2.9 times per patient6,7, as opposed to 1.4 treatments for Y90</p>
             </div>
           </div>
-          <div class="main-section__divider">
-            <div class="main-section__divider-line"></div>
-          </div>
-          <div class="main-section__column">
-            <div class="info-card info-card--key-assumptions-costs">
-              <div class="info-card__header info-card__header--costs-category">
-                <h3 class="info-card__subheading">Category 1</h3>
-                <h2 class="info-card__heading">Drug and device <br>acquisition cost</h2>
-              </div>
-              <div class="info-card__body">
-                <p class="info-card__paragraph info-card__paragraph--fs-small">While the acquisition of Y90 is completely covered by 
-                  reimbursement, TACE costs $7,200 per patient for drugs and device acquisition</p>
-              </div>
-              <div class="info-card__costs">
-                <div class="info-card__costs-line">
-                  <div class="info-card__costs-label">Y90</div>
-                  <div class="info-card__costs-value info-card__costs-value--reimbursed">Reimbursed</div>
+          <div class="main-section__column key-assumptions__costs">
+            <span class="key-assumptions__costs-title">Costs of HCC treatment</span>
+            <div class="main-section__row">
+              <div class="card key-assumptions__costs-card">
+                <div class="card__header card__header--costs-category">
+                  <h3 class="card__subheading">Category 1</h3>
+                  <h2 class="card__heading">Drug and device <br>acquisition cost</h2>
                 </div>
-                <div class="info-card__costs-line">
-                  <div class="info-card__costs-label">TACE</div>
-                  <div class="info-card__costs-value">$7200</div>
+                <div class="card__body">
+                  <p class="card__paragraph card__paragraph--fs-small">While the acquisition of Y90 is completely covered by 
+                    reimbursement, TACE costs $7,200 per patient for drugs and device acquisition</p>
                 </div>
-              </div>
-            </div>
-            <div class="info-card info-card--key-assumptions-costs">
-              <div class="info-card__header info-card__header--costs-category">
-                <h3 class="info-card__subheading">Category 2</h3>
-                <h2 class="info-card__heading">Administration cost</h2>
-              </div>
-              <div class="info-card__body">
-                <p class="info-card__paragraph info-card__paragraph--fs-small">Administration costs $5,903 per patient treated with 
-                  Y90 and $8,297 per patient treated with TACE. This includes procedures of liver imaging, 
-                  angiograms, coil embolization, salaries of nurse and nuclear safety officer, 
-                  and hospital admission of 6 hours for Y90 and 1 day for TACE</p>
-              </div>
-              <div class="info-card__costs">
-                <div class="info-card__costs-line">
-                  <div class="info-card__costs-label">Y90</div>
-                  <div class="info-card__costs-value">$5.9K</div>
-                </div>
-                <div class="info-card__costs-line">
-                  <div class="info-card__costs-label">TACE</div>
-                  <div class="info-card__costs-value">$8.3K</div>
+                <div class="card__costs">
+                  <div class="card__costs-line">
+                    <div class="card__costs-label">Y90</div>
+                    <div class="card__costs-value card__costs-value--reimbursed">Reimbursed</div>
+                  </div>
+                  <div class="card__costs-line">
+                    <div class="card__costs-label">TACE</div>
+                    <div class="card__costs-value">$7200</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="info-card info-card--key-assumptions-costs">
-              <div class="info-card__header info-card__header--costs-category">
-                <h3 class="info-card__subheading">Category 3</h3>
-                <h2 class="info-card__heading">Adverse event <br>management cost</h2>
-              </div>
-              <div class="info-card__body">
-                <p class="info-card__paragraph info-card__paragraph--fs-small">Managing adverse events cost $1,017 for Y90, 
-                  $2,560 for TACE and $6,746 for sorafenib</p>
-              </div>
-              <div class="info-card__costs">
-                <div class="info-card__costs-line">
-                  <div class="info-card__costs-label">Y90</div>
-                  <div class="info-card__costs-value">$1.0K</div>
+              <div class="card key-assumptions__costs-card">
+                <div class="card__header card__header--costs-category">
+                  <h3 class="card__subheading">Category 3</h3>
+                  <h2 class="card__heading">Adverse event <br>management cost</h2>
                 </div>
-                <div class="info-card__costs-line">
-                  <div class="info-card__costs-label">TACE</div>
-                  <div class="info-card__costs-value">$3.6K</div>
+                <div class="card__body">
+                  <p class="card__paragraph card__paragraph--fs-small">Managing adverse events cost $1,017 for Y90, 
+                    $2,560 for TACE and $6,746 for sorafenib</p>
                 </div>
-                <div class="info-card__costs-line">
-                  <div class="info-card__costs-label">sorafenib</div>
-                  <div class="info-card__costs-value">-$6.4K</div>
+                <div class="card__costs">
+                  <div class="card__costs-line">
+                    <div class="card__costs-label">Y90</div>
+                    <div class="card__costs-value">$1.0K</div>
+                  </div>
+                  <div class="card__costs-line">
+                    <div class="card__costs-label">TACE</div>
+                    <div class="card__costs-value">$3.6K</div>
+                  </div>
+                  <div class="card__costs-line">
+                    <div class="card__costs-label">sorafenib</div>
+                    <div class="card__costs-value">-$6.4K</div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="info-card info-card--key-assumptions-costs">
-              <div class="info-card__header info-card__header--costs-category">
-                <h3 class="info-card__subheading">Category 4</h3>
-                <h2 class="info-card__heading">Reimbursement</h2>
-              </div>
-              <div class="info-card__body">
-                <p class="info-card__paragraph info-card__paragraph--fs-small">Reimbursement is obtained for Y90 acquisition, 
-                  procedures and management of adverse events. Reimbursement totals $44,085 per patient 
-                  treated with Y90, $32,574 per TACE  patient and $6,434 per sorafenib patient</p>
-              </div>
-              <div class="info-card__costs">
-                <div class="info-card__costs-line">
-                  <div class="info-card__costs-label">Y90</div>
-                  <div class="info-card__costs-value">-$47.8K</div>
+            
+            <div class="main-section__row">
+              <div class="card key-assumptions__costs-card">
+                <div class="card__header card__header--costs-category">
+                  <h3 class="card__subheading">Category 2</h3>
+                  <h2 class="card__heading">Administration cost</h2>
                 </div>
-                <div class="info-card__costs-line">
-                  <div class="info-card__costs-label">TACE</div>
-                  <div class="info-card__costs-value">-$35,3</div>
+                <div class="card__body">
+                  <p class="card__paragraph card__paragraph--fs-small">Administration costs $5,903 per patient treated with 
+                    Y90 and $8,297 per patient treated with TACE. This includes procedures of liver imaging, 
+                    angiograms, coil embolization, salaries of nurse and nuclear safety officer, 
+                    and hospital admission of 6 hours for Y90 and 1 day for TACE</p>
                 </div>
-                <div class="info-card__costs-line">
-                  <div class="info-card__costs-label">sorafenib</div>
-                  <div class="info-card__costs-value">-$6.4K</div>
+                <div class="card__costs">
+                  <div class="card__costs-line">
+                    <div class="card__costs-label">Y90</div>
+                    <div class="card__costs-value">$5.9K</div>
+                  </div>
+                  <div class="card__costs-line">
+                    <div class="card__costs-label">TACE</div>
+                    <div class="card__costs-value">$8.3K</div>
+                  </div>
                 </div>
               </div>
-            </div>
+              
+              <div class="card key-assumptions__costs-card">
+                <div class="card__header card__header--costs-category">
+                  <h3 class="card__subheading">Category 4</h3>
+                  <h2 class="card__heading">Reimbursement</h2>
+                </div>
+                <div class="card__body">
+                  <p class="card__paragraph card__paragraph--fs-small">Reimbursement is obtained for Y90 acquisition, 
+                    procedures and management of adverse events. Reimbursement totals $44,085 per patient 
+                    treated with Y90, $32,574 per TACE  patient and $6,434 per sorafenib patient</p>
+                </div>
+                <div class="card__costs">
+                  <div class="card__costs-line">
+                    <div class="card__costs-label">Y90</div>
+                    <div class="card__costs-value">-$47.8K</div>
+                  </div>
+                  <div class="card__costs-line">
+                    <div class="card__costs-label">TACE</div>
+                    <div class="card__costs-value">-$35,3</div>
+                  </div>
+                  <div class="card__costs-line">
+                    <div class="card__costs-label">sorafenib</div>
+                    <div class="card__costs-value">-$6.4K</div>
+                  </div>
+                </div>
+              </div>
+            </div>  
           </div>
         </div>
       </main>

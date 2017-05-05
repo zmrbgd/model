@@ -1,0 +1,17 @@
+.mainpage {
+
+}
+
+.mainpage__header {
+  margin-top: 17px;
+  margin-bottom: 84px;
+}
+
+.mainpage__card {
+  border-radius: 5px;
+  margin-right: 43px;
+}
+
+.mainpage__card--wide {
+  max-width: 296px;
+}

@@ -36,3 +36,35 @@
 .key-assumptions__costs-card {
   min-height: 248px;
 } 
+
+.linechart {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;  
+}
+
+.linechart__row {
+  display: flex;
+  align-items: center;
+
+}
+
+.linechart__label {
+  text-align: right;
+  font-size: 12px;
+  width: 32px;
+  margin-right: 12px;
+}
+
+.linechart__line {
+  background-color: #b263a0;
+  width: 150px;
+  height: 3px;
+}
+
+.linechart__value {
+  margin-left: 12px;
+  font-size: 19px;
+  font-family: "NHaasGrotesk", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}

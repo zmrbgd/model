@@ -6,7 +6,7 @@
   box-shadow: 5px 9px 30px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  flex: 1 1 0px;
+  flex: 1 1 0px;  
 }
 
 .card+.card {
@@ -84,26 +84,7 @@
           flex: 1 0 95px;
 }  
 
-.card--cost-decrease::before {
-  display: inline-block;
-  content: '';
-  border-top: 8px solid #74cfb2;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  margin: 2px 8px 0 0;
-  vertical-align: 40%;
-}
 
-.card--revenue::before {
-  display: inline-block;
-  content: "";
-  background-image: url("../images/liver-icon.svg");
-  background-size: 20px 16px;
-  height: 16px;
-  width: 20px;
-  margin-right: 8px;
-  vertical-align: 15%;
-}
 
 .card__subheading {
   font-family: 'NHaasGrotesk', Arial, Helvetica, sans-serif;
@@ -146,9 +127,21 @@
 }
 
 .card__circle-icon {
-  max-width: 30px;
-  max-height: 30px;
+  width: 32px;
+  height: 32px;
   margin-right: 5px;
+  background-image: radial-gradient(transparent 0, transparent 12px, #B263A0 13px,  #B263A0 15px, transparent 16px); 
+  position: relative;
+}
+
+.card__circle-icon::after {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+  border: 2px dashed #F4E8F1;
+  background-image: radial-gradient(transparent 0, transparent 12px, #B263A0 13px,  #B263A0 15px, transparent 16px); 
+  position: absolute;
+  z-index: 1000;
 }
 
 .card__circle-value {
@@ -165,32 +158,5 @@
   letter-spacing: -0.1px;
 }
 
-.hrz-graph {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 22px;  
-}
 
-.hrz-graph__row {
-  display: flex;
-  align-items: center;
-
-}
-.hrz-graph__label {
-  text-align: right;
-  font-size: 12px;
-  width: 32px;
-  margin-right: 12px;
-}
-.hrz-graph__line {
-  background-color: #b263a0;
-  width: 150px;
-  height: 3px;
-}
-.hrz-graph__value {
-  margin-left: 12px;
-  font-size: 19px;
-  font-family: "NHaasGrotesk", Arial, Helvetica, sans-serif;
-  font-weight: 600;
-}
 

@@ -51,6 +51,12 @@
   font-size: 14px;
 }
 
+.footer__page-num {
+  width: 8px;
+  display: inline-block;
+  text-align: right;
+}
+
 .footer__page-nav {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 content;

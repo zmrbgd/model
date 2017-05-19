@@ -61,7 +61,7 @@
   width: 150px;
   height: 3px;
   animation-name: barFill;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: linear;
 }
 
